@@ -1,0 +1,2 @@
+add_lunch_combo omni_NX595J-eng
+add_lunch_combo omni_NX595J-userdebug
