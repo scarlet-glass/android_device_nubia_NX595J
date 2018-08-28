@@ -1,25 +1,20 @@
-TWRP device configuration for Xiaomi Mi 6
-==============
+Device Tree for ZTE Nubia Z17S (nx595j)
+==============================================
 
-The Xiaomi Mi 6 (codenamed _"sagit"_) is a high-end smartphone from Xiaomi.
-
-It was announced and released in April 2017.
-
-## Device specifications
+ZTE Nubia Z17S (codenamed "nx595j") is a high-range smartphone from Nubia.
+It was released in June 2017.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)
+CPU     | Quad-core 2.45 GHz Kryo 280 & Quad-core 1.9 GHz Kryo 280
 Chipset | Qualcomm MSM8998 Snapdragon 835
 GPU     | Adreno 540
-Memory  | 6 GB RAM
-Shipped Android Version | 7.1.1
+Memory  | 6/8 GB RAM
+Android Version | 7.1.1
 Storage | 64/128 GB
-Battery | Li-Po 3350 mAh battery
-Display | 1080 x 1920 pixels, 5.15 inches (~428 ppi pixel density)
-Rear Camera  | Dual 12 MP (27mm, f/1.8, OIS 4-axis & 52mm, f/2.6), phase detection autofocus, dual-LED (dual tone) flash
+Battery | Li-Ion 3100mAh battery
+Display | 1080 x 2040 pixels, 5.73 inches
+Back camera  | Dual 23/12 MP, f/1.8, phase detection autofocus, dual-LED (dual tone) flash
 
+![ZTE Nubia Z17S](http://ui.nubia.cn/upload/image/Z17S.jpg "ZTE Nubia Z17S")
 
-## Device picture
-
-![Xiaomi Mi 6](https://xiaomi-mi.com/uploads/CatalogueImage/xiaomi-mi-6-exclusive-edition-6gb128gb-dual-sim-ceramic-black-01_15554_1492602917.jpg "Xiaomi Mi 6 in black")
