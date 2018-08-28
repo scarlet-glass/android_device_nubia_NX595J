@@ -22,13 +22,7 @@ $(call inherit-product, build/target/product/embedded.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_PACKAGES += \
-	charger_res_images \
-	charger
 
-# Time Zone data for recovery
-PRODUCT_COPY_FILES += \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := NX595J
 PRODUCT_NAME := omni_NX595J
@@ -41,3 +35,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=NX595J PRODUCT_NAME=NX595J
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=nubia/NX595J/NX595J:7.1.1/NMF26X/eng.nubia.20171012.230158:user/release-keys \
 PRIVATE_BUILD_DESC="NX595J-user 7.1.1 NMF26X eng.nubia.20171012.230158 release-keys"
+
+# Verity
+PRODUCT_SUPPORTS_BOOT_SIGNER := true
+PRODUCT_SUPPORTS_VERITY := true
+PRODUCT_SUPPORTS_VERITY_FEC := true
+PRODUCT_VERITY_SIGNING_KEY := build/target/product/security/verity
